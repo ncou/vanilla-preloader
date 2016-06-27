@@ -25,9 +25,9 @@ bower install vanilla-preloader --save
 ### Browserify + ES2015
 
 ```javascript
-import ImagesPreloader from 'vanilla-preloader'
+import VanillaPreloader from 'vanilla-preloader'
 
-new ImagesPreloader([
+new VanillaPreloader([
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',
@@ -42,9 +42,9 @@ new ImagesPreloader([
 ### Browserify + ES5
 
 ```javascript
-var ImagesPreloader = require('vanilla-preloader');
+var VanillaPreloader = require('vanilla-preloader');
 
-new ImagesPreloader([
+new VanillaPreloader([
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',
@@ -59,7 +59,7 @@ new ImagesPreloader([
 ### Old School
 
 ```javascript
-new ImagesPreloader([
+new VanillaPreloader([
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',
     'https://example.com/path/to/image.jpg',

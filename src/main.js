@@ -1,4 +1,4 @@
-class ImagesPreloader {
+class VanillaPreloader {
     /**
      * Constructor.
      *
@@ -59,4 +59,4 @@ class ImagesPreloader {
     }
 }
 
-window.ImagesPreloader = ImagesPreloader
+window.VanillaPreloader = VanillaPreloader
