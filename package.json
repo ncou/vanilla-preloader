@@ -1,18 +1,18 @@
 {
-    "name": "images-preloader",
+    "name": "vanilla-preloader",
     "version": "1.0.0",
-    "description": "Simple vanilla JavaScript images preloader.",
+    "description": "Simple vanilla JavaScript vanilla preloader.",
     "author": "Benjamin Crozat <benjamin@croz.at>",
     "license": "WTFPL",
     "bugs": {
-        "url": "https://github.com/benjamincrozat/images-preloader/issues"
+        "url": "https://github.com/benjamincrozat/vanilla-preloader/issues"
     },
-    "homepage": "https://github.com/benjamincrozat/images-preloader#readme",
+    "homepage": "https://github.com/benjamincrozat/vanilla-preloader#readme",
     "scripts": {
-        "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/images-preloader.js",
+        "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/vanilla-preloader.js",
         "serve": "http-server -c 1 -a localhost",
         "dev": "npm-run-all --parallel watchify serve",
-        "build": "cross-env NODE_ENV=production browserify -e src/main.js | uglifyjs -c warnings=false -m > dist/images-preloader.min.js",
+        "build": "cross-env NODE_ENV=production browserify -e src/main.js | uglifyjs -c warnings=false -m > dist/vanilla-preloader.min.js",
         "lint": "eslint --ext .js"
     },
     "browserify": {

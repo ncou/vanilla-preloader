@@ -1,5 +1,5 @@
 {
-    "name": "images-preloader",
+    "name": "vanilla-preloader",
     "authors": [
         "Benjamin Crozat <benjamin@croz.at>"
     ],
@@ -13,7 +13,7 @@
         "images"
     ],
     "license": "WTFPL",
-    "homepage": "https://github.com/benjamincrozat/images-preloader",
+    "homepage": "https://github.com/benjamincrozat/vanilla-preloader",
     "ignore": [
         "node_modules"
     ]

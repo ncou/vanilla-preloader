@@ -1,4 +1,4 @@
-# [Images Preloader](https://canevas.benjamincrozat.com)
+# [Vanilla Preloader](https://canevas.benjamincrozat.com)
 
 Simple Vanilla JavaScript to help you preload your images.
 
@@ -7,13 +7,13 @@ Simple Vanilla JavaScript to help you preload your images.
 ### NPM
 
 ```bash
-npm install images-preloader --save
+npm install vanilla-preloader --save
 ```
 
 ### Bower
 
 ```bash
-bower install images-preloader --save
+bower install vanilla-preloader --save
 ```
 
 ### Old School
@@ -25,7 +25,7 @@ bower install images-preloader --save
 ### Browserify + ES2015
 
 ```javascript
-import ImagesPreloader from 'images-preloader'
+import ImagesPreloader from 'vanilla-preloader'
 
 new ImagesPreloader([
     'https://example.com/path/to/image.jpg',
@@ -42,7 +42,7 @@ new ImagesPreloader([
 ### Browserify + ES5
 
 ```javascript
-var ImagesPreloader = require('images-preloader');
+var ImagesPreloader = require('vanilla-preloader');
 
 new ImagesPreloader([
     'https://example.com/path/to/image.jpg',
