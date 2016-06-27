@@ -1,4 +1,4 @@
-# [Vanilla Preloader](https://canevas.benjamincrozat.com)
+# Vanilla Preloader
 
 Simple Vanilla JavaScript to help you preload your images.
 
