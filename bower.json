@@ -1,0 +1,20 @@
+{
+    "name": "images-preloader",
+    "authors": [
+        "Benjamin Crozat <benjamin@croz.at>"
+    ],
+    "description": "Simple Vanilla JavaScript to help you preload your images.",
+    "main": "src/main.js",
+    "keywords": [
+        "javascript",
+        "vanilla",
+        "loader",
+        "preloader",
+        "images"
+    ],
+    "license": "WTFPL",
+    "homepage": "https://github.com/benjamincrozat/images-preloader",
+    "ignore": [
+        "node_modules"
+    ]
+}

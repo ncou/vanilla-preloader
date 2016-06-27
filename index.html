@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>Images Preloader Demo</title>
+
+    </head>
+    <body>
+
+        <script src="dist/images-preloader.min.js"></script>
+        <script>
+            new ImagesPreloader([
+                'https://drscdn.500px.org/photo/85442055/q%3D80_m%3D2000/99cc98e273011b703fcb60ddeddab941',
+                'https://drscdn.500px.org/photo/41889652/q%3D80_m%3D2000/f0418b6b9120f628abbdb8b1ab222377',
+                'https://drscdn.500px.org/photo/51076798/q%3D80_m%3D2000/ca507242e628b91392b096670fef82bc',
+            ], function (images) {
+                console.log('Images loaded!', images)
+            });
+        </script>
+
+    </body>
+</html>
