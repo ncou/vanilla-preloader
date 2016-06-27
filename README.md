@@ -10,6 +10,12 @@ Simple Vanilla JavaScript to help you preload your images.
 npm install images-preloader --save
 ```
 
+### Bower
+
+```bash
+bower install images-preloader --save
+```
+
 ### Old School
 
 [Download the zip file](https://github.com/benjamincrozat/images-loader/archive/master.zip).
