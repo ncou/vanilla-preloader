@@ -1,6 +1,6 @@
 {
     "name": "vanilla-preloader",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple vanilla JavaScript vanilla preloader.",
     "author": "Benjamin Crozat <benjamin@croz.at>",
     "license": "WTFPL",
