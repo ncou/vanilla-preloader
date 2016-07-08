@@ -1,9 +1,10 @@
 {
     "name": "vanilla-preloader",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple vanilla JavaScript vanilla preloader.",
     "author": "Benjamin Crozat <benjamin@croz.at>",
     "license": "WTFPL",
+    "main": "./src/main.js",
     "bugs": {
         "url": "https://github.com/benjamincrozat/vanilla-preloader/issues"
     },
